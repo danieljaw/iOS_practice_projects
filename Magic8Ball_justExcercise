@@ -1,0 +1,31 @@
+/* Short note from Daniel Jaworski
+Before start coding, make sure to create a Main with labels and ImageView and Button.
+Below there are a few names used in my file.
+
+Make sure to creat an assets which names contains "magicball" in it an approriate number.
+
+
+*/
+
+
+import UIKit
+
+class ViewController: UIViewController {
+ 
+    var isPreessed = 1
+    @IBOutlet var imageView: UIImageView!
+    @IBAction func askButtonPressed(_ sender: UIButton) {
+        
+        let ballArray = [UIImage(imageLiteralResourceName: "magicball1"),
+                         UIImage(imageLiteralResourceName: "magicball2"),
+                         UIImage(imageLiteralResourceName: "magicball3"),
+                         UIImage(imageLiteralResourceName: "magicball4"),
+                         UIImage(imageLiteralResourceName: "magicball5")]
+        
+//        imageView.image = ballArray[Int.random(in: 0...1)]
+//        In this case (0...1)if I want to show only one pircure I have an error caused by small amaut of pictures
+        
+        imageView.image = ballArray[Int.random(in: 0...4)]
+    }
+    
+ 

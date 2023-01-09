@@ -22,3 +22,5 @@ print(secDict)
 if let lastElementFromColorsArray = secDict["Colors"]?.last {
     print(lastElementFromColorsArray)
 }
+
+// this code is simple way of using the arrays

@@ -1,0 +1,24 @@
+var miesiaceOrazDni: [String: Int] = [:]
+miesiaceOrazDni = ["January": 31, "February": 28, "March": 31]
+print(miesiaceOrazDni)
+
+miesiaceOrazDni["April"] = 30
+print(miesiaceOrazDni)
+
+miesiaceOrazDni.updateValue(29, forKey: "February")
+print(miesiaceOrazDni)
+
+if let numberOfDays = miesiaceOrazDni["January"] {
+    print("January has \(numberOfDays) dni.")
+}
+
+
+let shapesArray = ["koło", "trójkąt", "prostopadłościan"]
+let colorsArray = ["czerwony", "żółty", "pomarańczowy"]
+
+var secDict = ["Shapes": shapesArray, "Colors": colorsArray]
+print(secDict)
+
+if let lastElementFromColorsArray = secDict["Colors"]?.last {
+    print(lastElementFromColorsArray)
+}

@@ -1,0 +1,22 @@
+struct Town {
+    
+    //poniżej są właściwości struktury czyli properfies of struct
+    let nameOfTown = "Wrocław"
+    var citizens = ["Ania", "Daniel"]
+    var resources = ["Tramwaje": 10_000_000, "Auta": 42_000_000, "Busy": 75_000] //to jest słownik [key:value]
+    
+    // we can define the behaviour - jeśli jest to funcka w strukturze, nazywa się metodą
+    func fortify() {
+        print("Defences increased!")
+    }
+}
+
+var myTown = Town()
+print(myTown.citizens)
+print("\(myTown.nameOfTown) has \(myTown.resources["Auta"]!) cars!")
+
+myTown.citizens.append("Józef")
+print(myTown.citizens.count)
+print(myTown.citizens)
+
+myTown.fortify()

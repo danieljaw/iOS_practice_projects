@@ -13,3 +13,18 @@ let quiz = [
 quiz[0] // and the result will be printed
 
 // but if I want to make this 2dimensional or even 3
+
+//2 dimensions 
+    let quiz = [
+    ["Four + Two is equal to Six.", "True"],
+    ["Five - Three is greater than One", "True"],
+    ["Three + Eight is less than Ten.", "True"],
+    ]
+    
+    
+/* 
+I can now see that there is two seperate arrays inside the "parent" array.
+I can look for the last element by:
+*/
+
+quiz[2][2] // And the result will be showed. Anyway, there is even more arrays to write 

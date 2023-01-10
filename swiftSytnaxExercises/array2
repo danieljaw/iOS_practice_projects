@@ -28,3 +28,11 @@ I can look for the last element by:
 */
 
 quiz[2][2] // And the result will be showed. Anyway, there is even more arrays to write 
+
+// simple example
+
+let liczby = [
+[1,2,3],
+[4,5,6],
+[7,8,9],
+]

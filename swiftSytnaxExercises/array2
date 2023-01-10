@@ -1,0 +1,15 @@
+/* Simple array which in my case should be 2 dimensional
+*/
+
+// first 
+let quiz = [
+    "Four + Two is equal to Six.",
+    "Five - Three is greater than One",
+    "Three + Eight is less than Ten."
+    ]
+    
+// now if I want to look through my array I have to simply write:
+
+quiz[0] // and the result will be printed
+
+// but if I want to make this 2dimensional or even 3

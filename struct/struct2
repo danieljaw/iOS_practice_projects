@@ -40,3 +40,32 @@ var daniel = User(name: "Daniel", age: 25, height: 183, weight: 100, activityLev
 
 print("User's name: \(daniel.name) and age: \(daniel.age). His hight is \(daniel.height) cm and weight \(daniel.weight) kg. Activity level is - around \(daniel.activityLevel) level")
 
+// here - some initializators :)
+
+
+struct Distance {
+    var meters: Double
+    var feet: Double
+    
+    init(meters: Double) {
+        self.meters = meters
+        self.feet = meters * 3.28084 // convert to feets
+    }
+    
+    init(feet: Double) {
+        self.feet = feet
+        self.meters = feet / 3.28084
+    }
+}
+
+var mile = Distance(meters: 1600)
+print(mile.feet)
+var checkValue = 5249.344
+
+print(mile.feet == checkValue)
+
+var otherInstance = Distance(feet: 60)
+print(otherInstance.meters)
+var checkValue2 = 18.287999414784018
+
+print(otherInstance.meters == checkValue2)

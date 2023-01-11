@@ -27,3 +27,16 @@ struct Laptop {
 let firstLaptop = Laptop(yearPurchased: 2022)
 let secondLaptop = Laptop(screenSize: 15, yearPurchased: 2017)
 
+
+struct User {
+    var name: String
+    var age: Int
+    var height: Double
+    var weight: Double
+    var activityLevel: Int
+}
+
+var daniel = User(name: "Daniel", age: 25, height: 183, weight: 100, activityLevel: 3)
+
+print("User's name: \(daniel.name) and age: \(daniel.age). His hight is \(daniel.height) cm and weight \(daniel.weight) kg. Activity level is - around \(daniel.activityLevel) level")
+

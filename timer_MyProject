@@ -1,0 +1,49 @@
+//
+//  ViewController.swift
+//  Timer
+//
+//  Created by Daniel Jaworski on 11/01/2023.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+    
+    let array = ["Strenght", "Body workout", "Resiliance", "Burn out"]
+    var actuallChoice = 0 //totalTime
+    var secondsPassed = 0 //un-used
+    var timer = Timer()
+    @IBOutlet var virtualCounter: UILabel!
+    @IBOutlet var choiseMenu: UILabel!
+    @IBOutlet var progressBar: UIProgressView!
+    @IBOutlet var viewTitle: UILabel!
+    @IBAction func keyPressed(_ sender: UIButton) {
+        progressBar.progressTintColor = UIColor.green
+        timer.invalidate()
+        progressBar.progress = 0.0
+        let userChoice = sender.titleLabel!.text!
+        //        print(userChoice)
+        
+        switch userChoice {
+        case array[0]:
+            //            print("30 sec")
+            actuallChoice = 7
+            
+            //            print(actuallChoice)
+            //            choiseMenu.text = "Strenght selected"
+        case array[1]:
+            //            print("40 sec")
+            actuallChoice = 40
+            //            print(actuallChoice)
+        case array[2]:
+            //            print("90 sec")
+            actuallChoice = 90
+            //            print(actuallChoice)
+        case array[3]:
+            //            print("120 sec")
+            actuallChoice = 120
+            //            print(actuallChoice)
+        default:
+            print("No button found!")
+        }
+

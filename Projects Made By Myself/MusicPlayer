@@ -1,0 +1,26 @@
+//
+//  ViewController.swift
+//  SoundPlayer
+//
+//  Created by Daniel Jaworski on 13/01/2023.
+//
+
+import UIKit
+import AVFoundation
+
+class ViewController: UIViewController {
+    
+    var audioPlayer = AVAudioPlayer()
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+
+    func soundPlay() {
+        let bundle = Bundle.main
+    }
+
+}
+
+//To be countinued

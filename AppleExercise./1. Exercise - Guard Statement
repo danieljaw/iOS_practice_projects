@@ -63,3 +63,9 @@ func createUser() -> User? {
     return User(firstName: firstName, lastName: lastName, age: age)
 }
 
+//fourth
+
+//Call the function you made above and capture the return value. Unwrap the User with standard optional binding and print a statement using each of its properties.
+
+let firstUser = User(firstName: "Jonathan", lastName: "Sanders", age: "28")
+print(firstUser)

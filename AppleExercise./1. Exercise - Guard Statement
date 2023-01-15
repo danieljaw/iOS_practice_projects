@@ -31,3 +31,35 @@ func add(a: Int?, b: Int?) -> Int? {
 
 add(a: 9, b: 9)
 add(a: nil, b: 10)
+
+//third
+
+/*
+When working with UIKit objects, you will occasionally need to unwrap optionals to handle user input. For example, the text fields initialized below have text properties that are of type String?.
+
+Write a function below the given code called createUser that takes no parameters and returns an optional User object. Write a guard statement at the beginning of the function that unwraps the values of each text field's text property, and returns nil if not all values are successfully unwrapped. After the guard statement, use the unwrapped values to create and return and instance of User.
+
+*/
+
+
+struct User {
+    var firstName: String
+    var lastName: String
+    var age: String
+}
+
+let firstNameTextField = UITextField()
+let lastNameTextField = UITextField()
+let ageTextField = UITextField()
+
+firstNameTextField.text = "Jonathan"
+lastNameTextField.text = "Sanders"
+ageTextField.text = "28"
+
+func createUser() -> User? {
+    guard let firstName = firstNameTextField.text, let lastName = lastNameTextField.text, let age = ageTextField.text else {
+        return nil
+    }
+    return User(firstName: firstName, lastName: lastName, age: age)
+}
+

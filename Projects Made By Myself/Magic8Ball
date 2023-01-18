@@ -1,0 +1,22 @@
+import UIKit
+
+class ViewController: UIViewController {
+ 
+    var isPreessed = 1
+    @IBOutlet var imageView: UIImageView!
+    @IBAction func askButtonPressed(_ sender: UIButton) {
+        
+        let ballArray = [UIImage(imageLiteralResourceName: "ball1"),
+                         UIImage(imageLiteralResourceName: "ball2"),
+                         UIImage(imageLiteralResourceName: "ball3"),
+                         UIImage(imageLiteralResourceName: "ball4"),
+                         UIImage(imageLiteralResourceName: "ball5")]
+        
+//        imageView.image = ballArray[Int.random(in: 0...1)]
+//        In this case (0...1)if I want to show only one pircure I have an error caused by small amaut of pictures
+        
+        imageView.image = ballArray[Int.random(in: 0...4)]
+    }
+
+}
+

@@ -13,3 +13,6 @@ struct Computer {
         }
     }
 }
+
+
+// Create two instances of Computer? using the failable initializer. One instance should use values that will have a value within the optional, and the other should result in nil. Use if-let syntax to unwrap each of the Computer? objects and print the ram and yearManufactured if the optional contains a value.

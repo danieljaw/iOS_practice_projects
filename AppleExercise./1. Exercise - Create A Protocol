@@ -1,2 +1,7 @@
 // Create a protocol called Vehicle with two requirements: a nonsettable numberOfWheels property of type Int, and a function called drive().
 
+protocol Vehicle {
+    var numberOfWheels: Int { get }
+    func drive()
+}
+

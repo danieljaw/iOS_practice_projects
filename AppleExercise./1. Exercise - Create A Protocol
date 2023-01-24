@@ -5,3 +5,4 @@ protocol Vehicle {
     func drive()
 }
 
+// Define a Car struct that implements the Vehicle protocol. numberOfWheels should return a value of 4, and drive() should print "Vroom, vroom!" Create an instance of Car, print its number of wheels, then call drive().

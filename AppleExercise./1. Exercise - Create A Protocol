@@ -19,3 +19,7 @@ let carNo1 = Car.init()
 print(carNo1.numberOfWheels)
 //print(carNo1.drive() ?? "") -> Proba :)
 carNo1.drive()
+
+
+// Exercise 3
+// Define a Bike struct that implements the Vehicle protocol. numberOfWheels should return a value of 2, and drive() should print "Begin pedaling!". Create an instance of Bike, print its number of wheels, then call drive().

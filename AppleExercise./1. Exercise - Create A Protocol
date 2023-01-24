@@ -15,3 +15,7 @@ struct Car {
     }
 }
 
+let carNo1 = Car.init()
+print(carNo1.numberOfWheels)
+//print(carNo1.drive() ?? "") -> Proba :)
+carNo1.drive()

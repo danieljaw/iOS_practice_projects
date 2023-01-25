@@ -1,0 +1,19 @@
+protocol AdvancedLifeSupport {
+    func performCPR()
+}
+
+class EmergencyCallHandler {
+    var delegate: AdvancedLifeSupport?
+    // ktokolwiek lub cokolwiek może ustawić się jako delegate, musi mieć spełnione warunki opisane w AdvancedLifeSupport. Muszą wiedzieć jak wykonac CPR
+    
+    func assessSituatio() {
+        print("Can you tell me what happend?")
+    }
+    
+    func medicalEmergency() {
+        // ta funkcja musi wezwać delegata, nie interesuje kto to zrobi ale musi mieć ALS
+        delegate?.performCPR()
+    }
+}
+
+

@@ -32,3 +32,20 @@ struct Paramedic: AdvancedLifeSupport {
 }
 
 
+class Doctor: AdvancedLifeSupport {
+    
+    init(hanler: EmergencyCallHandler) {
+        hanler.delegate = self
+    }
+    
+    func performCPR() {
+        print("The doctor does CPR")
+    }
+    
+    func useStethoscope() {
+        print("Listening HeartRate")
+    }
+    
+    
+}
+

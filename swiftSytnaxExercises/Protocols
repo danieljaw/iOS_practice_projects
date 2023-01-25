@@ -42,5 +42,12 @@ struct FlyingMuseum {
 }
 
 
+struct Airplane: CanFly {
+    func fly() {
+        print("Samolot może latać, uzywa silnikow")
+    }
+    
+
+}
 
 

@@ -51,3 +51,13 @@ struct Airplane: CanFly {
 }
 
 
+let myEagle = Eagle()
+//myEagle.fly()
+//myEagle.layEgg()
+//myEagle.soar()
+let myPenguin = Penguin()
+//myPenguin.layEgg()
+//myPenguin.swim()
+//myPenguin.fly() // a to nie prawda
+
+

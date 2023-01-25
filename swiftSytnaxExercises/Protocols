@@ -61,3 +61,13 @@ let myPenguin = Penguin()
 //myPenguin.fly() // a to nie prawda
 
 
+let myPlane = Airplane()
+
+let museum = FlyingMuseum()
+museum.flyingDemo(flyingObject: myPlane)
+myEagle.fly()
+myPlane.fly()
+
+
+museum.flyingDemo(flyingObject: myPlane)
+

@@ -49,3 +49,17 @@ class Doctor: AdvancedLifeSupport {
     
 }
 
+class Surgeon: Doctor {
+    //jesli chirurg dziedziczy po doktorze to też dziedziczy protokół ALifeSupport
+    
+    override func performCPR() {
+        super.performCPR()
+        print("Sing staying alive by the Bee")
+    }
+    
+    func useElectricDrill() {
+        print("Wrrr...")
+    }
+    
+}
+

@@ -63,3 +63,10 @@ class Surgeon: Doctor {
     
 }
 
+// tworzymy obiekty
+
+let emilio = EmergencyCallHandler()
+let angela = Surgeon(hanler: emilio)
+
+emilio.assessSituatio()
+emilio.medicalEmergency()

@@ -17,3 +17,18 @@ class EmergencyCallHandler {
 }
 
 
+struct Paramedic: AdvancedLifeSupport {
+    
+    init(handler: EmergencyCallHandler) {
+        handler.delegate = self
+    }
+    // jeśli jest na zmianie musi przypisać sobie ten pager
+    
+    
+    func performCPR() {
+        print("The paramedic does chest comp, 30 pes sec")
+    }
+    
+}
+
+

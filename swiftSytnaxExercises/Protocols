@@ -1,0 +1,46 @@
+protocol CanFly {
+    // to certyfikat
+    func fly() // nie trzeba mieć {}
+}
+
+class Bird {
+    
+    var isFemale = true
+    func layEgg() {
+        if isFemale {
+            print("Mamy nowego ptaka")
+        }
+    }
+    
+
+}
+//mogę dziedziczyć
+
+class Eagle: Bird, CanFly {
+    func fly() {
+        print("The eaagle rusza skrzydłami i lata")
+    }
+    
+    
+    func soar() {
+        //szybować
+        print("Orzeł prześlizguje się pomiędzy strumieniami powietrza - inne ptaki nie potrafią")
+    }
+    
+}
+
+class Penguin: Bird {
+    func swim() {
+        print("Pływa")
+    }
+}
+
+struct FlyingMuseum {
+    func flyingDemo(flyingObject: CanFly) {
+        flyingObject.fly()
+    }
+}
+
+
+
+

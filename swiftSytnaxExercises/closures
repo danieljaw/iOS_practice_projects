@@ -27,3 +27,14 @@ print(result)
 
 
 // Now I can chage the func with the closure statement which very help to use Swift
+
+// KOLEJNY PRZYKŁAD
+
+let array = [6,2,3,9,4,1]
+
+// I want to add + 1 to each of them
+//func addOne(n1: Int) -> Int {
+//    return n1 + 1
+//}
+//
+

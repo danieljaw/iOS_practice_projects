@@ -9,3 +9,7 @@ func add(no1: Int, no2: Int) -> Int {
     return no1 + no2
 }
 
+
+//func multiply(no1: Int, no2: Int) ->  Int {
+//    return no1 * no2
+//}

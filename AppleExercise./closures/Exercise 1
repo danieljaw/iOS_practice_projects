@@ -4,3 +4,14 @@ Exercise - Create Closures
 
 
 let blankClosure = {() -> Void in}
+
+
+// Create a closure assigned to a constant fourClosure that has no parameters and returns an Int. The body of the closure should always return the value 4. Call the closure four times.
+
+let fourClosure = { () -> Int in
+    return 4
+}
+fourClosure()
+fourClosure()
+fourClosure()
+fourClosure()

@@ -5,3 +5,5 @@ func forwards(name1: String, name2: String) -> Bool {
     print(name2)
     return name1 < name2
 }
+
+// Create a [String] collection using names of your friends and family. Call the collection's sorted(by:) function, passing in forwards as the argument. Store the result into sortedCollection1, then print the result. This should sort your collection alphabetically.

@@ -22,3 +22,10 @@ let sortedCollection2 = someNames.sorted(by: {(name1: String, name2: String) -> 
     return name1 < name2
 })
 print(sortedCollection2)
+
+//Similar to the previous exercise, call the collection's sorted(by:) function, but remove as much of the unnecessary closure syntax as you can. Store the result in sortedCollection3, then print the result.
+
+let sortedCollection3 = someNames.sorted(by: {(name1, name2) in name1 < name2})
+print(sortedCollection3)
+
+

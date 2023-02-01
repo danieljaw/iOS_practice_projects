@@ -38,3 +38,5 @@ test
 
 
 schoolSubjects.sorted { $0 > $1 }
+
+// Using the code below, use the reduce function to subtract all of the values within the array from the starting value 100. Print the resulting value.

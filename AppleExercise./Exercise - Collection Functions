@@ -14,3 +14,6 @@ testScores.map(addOne(n1:))
 
 let resultingCollection = testScores.map({ $0 + 1 })
 print (resultingCollection)
+
+// Using the code below, use the filter function to create a new array of String values. The new array should only include Strings longer than four characters. Use $0 as you iterate through the values of the array.  Print the resulting collection.
+

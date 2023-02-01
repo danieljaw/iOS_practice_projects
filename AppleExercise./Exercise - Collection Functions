@@ -40,3 +40,17 @@ test
 schoolSubjects.sorted { $0 > $1 }
 
 // Using the code below, use the reduce function to subtract all of the values within the array from the starting value 100. Print the resulting value.
+
+
+let damageTaken = [25, 10, 15, 30, 20]
+//var startingValue = 100
+//
+//for damageTake in damageTaken {
+//    startingValue = startingValue - damageTake
+//}
+//print(startingValue)
+
+// 2nd option - związana z zadaniem
+
+let total = damageTaken.reduce(100) {(aktualnaWartosc, nowaWartosc) -> Int in return aktualnaWartosc - nowaWartosc}
+print(total)

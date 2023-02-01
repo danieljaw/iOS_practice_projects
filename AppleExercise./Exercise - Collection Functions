@@ -1,1 +1,3 @@
 // Exercise - Collection Functions
+
+// Using the code below, use the map function to create an array of Int values, whose values are equal to the original integer value, plus 1. Use $0 as you iterate through the values of the array. Print the resulting collection.

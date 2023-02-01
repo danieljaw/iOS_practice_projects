@@ -17,3 +17,24 @@ print (resultingCollection)
 
 // Using the code below, use the filter function to create a new array of String values. The new array should only include Strings longer than four characters. Use $0 as you iterate through the values of the array.  Print the resulting collection.
 
+let schoolSubjects = ["Math", "Computer Science", "Gym", "English", "Biology"]
+
+var stringArray1: [String] = []
+
+for schoolSubject in schoolSubjects {
+    if schoolSubject.count > 4 {
+        stringArray1.append(schoolSubject)
+    }
+}
+
+func filtrowanie(schoolSubject: String) -> Bool {
+    return schoolSubject.count > 4
+}
+
+schoolSubjects.filter(filtrowanie(schoolSubject:))
+
+let test = schoolSubjects.filter { $0.count > 4 }
+test
+
+
+schoolSubjects.sorted { $0 > $1 }

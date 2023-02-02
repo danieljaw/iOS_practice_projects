@@ -6,3 +6,6 @@
 
 
 //Create two Character constants, myVowel and myConsonant, and set them to a vowel and a consonant, respectively. Use the isVowel() methods on each constant to determine whether or not it's a vowel.
+
+
+// Create a Rectangle struct with two variable properties, length and width, both of type Double. Below the definition, write an extension to Rectangle that includes a function, halved(). This function returns a new Rectangle instance with half the length and half the width of the original rectangle.

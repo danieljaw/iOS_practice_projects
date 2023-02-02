@@ -1,2 +1,3 @@
 // Exercise - Extensions
 
+// Define an extension to Character that includes a function isVowel(). The function returns true if the character is a vowel (a,e,i,o,u), and false otherwise. Be sure to properly handle uppercase and lowercase characters.

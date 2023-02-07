@@ -37,3 +37,19 @@ class Eagle: Bird, CanFly {
     }
     
 }
+
+class Penguin: Bird {
+    func swim() {
+        print("Pływa")
+    }
+}
+
+struct FlyingMuseum {
+    func flyingDemo(flyingObject: CanFly) {
+        flyingObject.fly()
+    }
+}
+
+struct Airplane: CanFly {
+
+    }

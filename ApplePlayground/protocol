@@ -1,0 +1,10 @@
+protocol CanFly {
+    // to certyfikat
+    func fly() // nie trzeba mieć {}
+}
+
+extension CanFly {
+    func fly() {
+        print("The object take off into the air")
+    }
+}

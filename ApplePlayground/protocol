@@ -8,3 +8,16 @@ extension CanFly {
         print("The object take off into the air")
     }
 }
+
+class Bird {
+
+    
+    var isFemale = true
+    func layEgg() {
+        if isFemale {
+            print("Mamy nowego ptaka")
+        }
+    }
+    
+
+}

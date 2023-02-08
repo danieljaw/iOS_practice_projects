@@ -1,0 +1,6 @@
+// Create a city constant and assign it a string literal representing your home city. Then create a state constant and assign it a string literal representing your home state. Finally, create a home constant and use string concatenation to assign it a string representing your home city and state (i.e. Portland, Oregon). Print the value of home.
+
+let city = "Wasraw"
+let state = "aAA"
+let home = "i.e. " + city + ", " + state
+print(home)

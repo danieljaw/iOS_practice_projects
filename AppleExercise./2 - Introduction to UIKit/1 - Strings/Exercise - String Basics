@@ -1,3 +1,17 @@
 // Create a name constant and assign it a string literal representing your name.
 
 let name = "Daniel"
+
+
+//Create a favoriteQuote constant and assign it the following string literal:
+
+//"My favorite quote is <INSERT QUOTE HERE>."
+
+//Write in your own favorite quote where indicated, and be sure to include escaped quotation marks. When finished, print the value of favoriteQuote.
+
+//If your favorite quote is "The grass is always greener on the other side" the value of favoriteQuote should be such that printing favoriteQuote results in the following:
+
+//My favorite quote is "The grass is always greener on the other side."
+
+let favouriteQuote = "\"The grass is always greener on the other side.\""
+print("My favorite quote is \(favouriteQuote)")

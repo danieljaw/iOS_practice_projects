@@ -1,0 +1,3 @@
+// Create a name constant and assign it a string literal representing your name.
+
+let name = "Daniel"

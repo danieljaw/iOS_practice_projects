@@ -15,3 +15,25 @@ let name = "Daniel"
 
 let favouriteQuote = "\"The grass is always greener on the other side.\""
 print("My favorite quote is \(favouriteQuote)")
+
+// Write an if-else statement that prints "There's nothing here" if emptyString is empty, and "It's not as empty as I thought" otherwise.
+
+let emptyString = ""
+
+// 1st way - myślę, że to jest dobrze
+
+if emptyString.isEmpty {
+    print("There's nothing here")
+} else {
+    print("It's not as empty as I thought")
+}
+
+//2nd way - to też może być
+if emptyString == "" {
+    print("There's nothing here")
+} else {
+    print("It's not as empty as I thought")
+}
+
+
+// jeśli zmienimy wartość stałej emptyString widać, że oba napisy się zmieniają.

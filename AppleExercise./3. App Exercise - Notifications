@@ -9,3 +9,10 @@ let fullName = firstName + " " + lastName
 
 
 // Occasionally users of your fitness tracking app will beat previous goals or records. You may want to notify them when this happens for encouragement purposes. Create a new constant congratulations and assign it a string literal that uses string interpolation to create the following string:
+
+let previousBest = 14392
+let newBest = 15125
+// żeby zapamiętać = concentration -> kiedy dodajemy +, interpolation kiedy mamy \()
+
+let congratulations = "Congratulations, \(fullName)! You beat your previous daily high score of \(newBest) steps by walking \(previousBest) steps yesterday!"
+print(congratulations)

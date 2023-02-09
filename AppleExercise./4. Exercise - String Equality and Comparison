@@ -8,3 +8,6 @@ if nameInCaps == name {
 } else {
     print("The two strings are not equal.")
 }
+
+// Write a new if-else statement that also checks to see if nameInCaps and name are the same. However, this time use the lowercased() method on each constant to compare the lowercase version of the strings. If they are equal, print the following statement using string interpolations:
+

@@ -11,3 +11,10 @@ if nameInCaps == name {
 
 // Write a new if-else statement that also checks to see if nameInCaps and name are the same. However, this time use the lowercased() method on each constant to compare the lowercase version of the strings. If they are equal, print the following statement using string interpolations:
 
+if name.lowercased() == nameInCaps.lowercased() {
+    print("\(nameInCaps.lowercased()) and \(name.lowercased()) are the same.")
+} else {
+    print("\(nameInCaps.lowercased()) and \(name.lowercased()) are not the same.")
+}
+
+// task3

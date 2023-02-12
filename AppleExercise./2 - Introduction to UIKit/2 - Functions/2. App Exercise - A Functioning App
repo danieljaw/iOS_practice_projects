@@ -1,3 +1,15 @@
 // As you may have guessed, functions are key to making your app work. For example, in every exercise dealing with step count until now, you have simply assigned a number of steps to a steps variable. This isn't very realistic seeing as the number of steps you take increments one at a time and continues changing throughout the day.
 
 // A reoccurring process like this is a perfect candidate for a function. Write a function called incrementSteps after the declaration of steps below that will increment steps by one and then print its value. Call the function multiple times and observe the printouts.
+
+var steps = 20_000
+
+func incrementSteps() {
+    steps += 1
+    print(steps)
+}
+incrementSteps()
+incrementSteps()
+incrementSteps()
+incrementSteps()
+incrementSteps()

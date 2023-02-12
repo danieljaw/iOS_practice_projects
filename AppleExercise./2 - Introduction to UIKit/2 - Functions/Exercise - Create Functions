@@ -1,0 +1,5 @@
+// Write a function called introduceMyself that prints a brief introduction of yourself. Call the function and observe the printout.
+
+func introduceMyself() {
+    print("Nazywam się DJ i jestem studentem xxx.")
+}

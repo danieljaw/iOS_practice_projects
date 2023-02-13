@@ -18,3 +18,8 @@ print(firstRun.elevation)
 
 
 // Now imagine that throughout the course of the run, you go a distance of 2,396 meters in 15.3 minutes, and gain 94 meters of elevation. Update the values of firstRun's properties accordingly. Print a statement about your run using the values of each property.
+firstRun.distance = 2.396
+firstRun.time = 15.3
+firstRun.elevation = 94
+
+print("My first run was very hard. I made a distance near to 3 km - it was: \(firstRun.distance) meters. It took me over \(firstRun.time). So it's around 15 minutes. The elevation was incredible - \(firstRun.elevation) meters of elevation")

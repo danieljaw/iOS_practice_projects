@@ -11,3 +11,7 @@ struct RunningWorkout {
 
 // Create a variable instance of RunningWorkout called firstRun without supplying any arguments. Print out all three properties of firstRun. This is a good example of when using default values is appropriate, seeing as all running workouts start with a distance, time, and elevation change of 0.
 
+var firstRun = RunningWorkout()
+print(firstRun.distance)
+print(firstRun.time)
+print(firstRun.elevation)

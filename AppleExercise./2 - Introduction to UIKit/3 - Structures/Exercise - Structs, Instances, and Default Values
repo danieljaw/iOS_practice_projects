@@ -31,3 +31,14 @@ struct Book {
     var pages = 0
     var price = 0.0
 }
+
+// Create a variable instance of Book called favoriteBook without supplying any arguments. Print out the title of favoriteBook. Does it currently reflect the title of your favorite book? Probably not. Change all four properties of favoriteBook to reflect your favorite book. Then, using the properties of favoriteBook, print out facts about the book.
+
+var favoritBook = Book()
+print(favoritBook.title)
+var favoriteBook = Book(title: "Der kleine Prinz", author: "Antoine de Saint-Exupéry", pages: 100, price: 7.99)
+print(favoriteBook.title)
+print(favoriteBook.author)
+print(favoriteBook.pages)
+print(favoriteBook.price)
+

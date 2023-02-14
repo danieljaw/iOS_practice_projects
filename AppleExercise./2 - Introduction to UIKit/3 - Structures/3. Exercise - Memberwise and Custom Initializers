@@ -54,3 +54,15 @@ struct Height {
         self.heightInInches = heightInCentimeters / 2.54
     }
 }
+
+
+// Now create a variable instance of Height called someonesHeight. Use the initializer for inches to set the height to 65. Print out the property for height in centimeters and verify that it is equal to 165.1.
+
+var someonesHeight = Height(heightInInches: 65)
+print(someonesHeight.heightInCentimeters)
+
+if someonesHeight.heightInCentimeters == 165.1 {
+    print("Someones height in inches 65 is equal = 165.1")
+} else {
+    print("error")
+}

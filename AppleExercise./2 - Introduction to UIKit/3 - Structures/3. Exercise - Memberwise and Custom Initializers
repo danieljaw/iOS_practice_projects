@@ -25,3 +25,14 @@ struct Book {
 
 let favoriteBook = Book(title: "Der kleine Prinz", author: "Antoine de Saint-Exupéry", pages: 100, price: 7.99)
 print("My favourite book is called: \(favoriteBook.title) and its written by: \(favoriteBook.author). This book is translated in over than 100 languages and each books contains around \(favoriteBook.pages) pages. Usual price is \(favoriteBook.price) Euro")
+
+// Make a Laptop struct with three variable properties, screenSize of type Int, repairCount of type Int, and yearPurchased of type Int. Give screenSize a default value of 13 and repairCount a default value of 0, and leave yearPurchased without a default value. Declare two instances of Laptop, using the two provided memberwise initializers.
+
+struct Laptop {
+    var screenSize: Int = 13
+    var repairCount: Int = 0
+    var yearPurchased: Int
+}
+
+let firstLaptop = Laptop(yearPurchased: 2022)
+let secondLaptop = Laptop(screenSize: 15, yearPurchased: 2017)

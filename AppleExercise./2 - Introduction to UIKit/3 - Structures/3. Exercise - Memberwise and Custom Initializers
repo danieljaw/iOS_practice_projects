@@ -4,3 +4,12 @@ struct GPS {
     var latitude: Double
     var longitude: Double
 }
+
+// Now create a constant instance of GPS called somePlace, and use the memberwise initializer to set latitude to 51.514004, and longitude to 0.125226. Print the values of somePlace's properties.
+
+
+// just to be clear: memberwise initializer - wtedy kiedy mamy nazwę struktury i nawiasy
+
+let somePlace = GPS(latitude: 51.514004, longitude: 0.1252226)
+print(somePlace.longitude)
+print(somePlace.latitude)

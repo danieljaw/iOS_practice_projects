@@ -66,3 +66,14 @@ if someonesHeight.heightInCentimeters == 165.1 {
 } else {
     print("error")
 }
+
+// Now create a variable instance of Height called myHeight and initialize it with your own height. Verify that both heightInInches and heightInCentimeters are accurate.
+
+var myHeight = Height(heightInCentimeters: 183)
+print(myHeight.heightInCentimeters)
+print(myHeight.heightInInches)
+print("Verifying...")
+var myHeightInInches = Height(heightInInches: 72.04724409448819)
+print(myHeightInInches.heightInCentimeters)
+
+print("Verified :)")

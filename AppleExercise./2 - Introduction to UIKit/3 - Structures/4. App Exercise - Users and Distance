@@ -46,3 +46,9 @@ var checkValue = 5249.344
 print(mile.feet == checkValue)
 
 // Now create another instance of Distance and give it some other distance. Ensure that both properties are set correctly.
+
+var otherInstance = Distance(feet: 60)
+print(otherInstance.meters)
+var checkValue2 = 18.287999414784018
+
+print(otherInstance.meters == checkValue2)

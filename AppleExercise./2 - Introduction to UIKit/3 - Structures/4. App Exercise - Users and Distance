@@ -36,3 +36,11 @@ struct Distance {
         self.meters = feet / 3.28084
     }
 }
+
+// Now create an instance of Distance called mile. Use the initializer for meters to set the distance to 1600. Print out the property for feet and verify that it is equal to 5249.344.
+
+var mile = Distance(meters: 1600)
+print(mile.feet)
+var checkValue = 5249.344
+
+print(mile.feet == checkValue)

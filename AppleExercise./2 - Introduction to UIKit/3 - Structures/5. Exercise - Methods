@@ -8,3 +8,10 @@ struct Book {
     var pages: Int
     var price: Double
     
+    func description() {
+        print("Book \"\(title)\" is a book, that you are looking for. Written by an amazing writer: \(author). This book contains excact \(pages) pages. This week, we have a special discout, and final price is: \(price) Euro")
+    }
+}
+
+let information = Book(title: "Der kleine Prinz", author: "Antoine de Saint-Exupéry", pages: 100, price: 7.99)
+information.description() // wywołanie metody

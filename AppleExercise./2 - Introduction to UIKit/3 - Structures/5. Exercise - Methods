@@ -27,3 +27,8 @@ struct Post {
         likes += 1
     }
 }
+
+var typicalPost = Post(message: "Typical Post", likes: 1999, numberOfComments:213)
+print(typicalPost.likes)
+typicalPost.like()
+print(typicalPost.likes)

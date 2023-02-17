@@ -27,3 +27,9 @@ struct Steps {
         steps += 1
     }
 }
+
+
+var instance2 = Steps(steps: 2_999, goal: 10_000)
+print(instance2.steps)
+instance2.takeStep()
+print(instance2.steps)

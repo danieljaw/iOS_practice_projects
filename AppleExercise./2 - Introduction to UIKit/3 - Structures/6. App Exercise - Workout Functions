@@ -3,3 +3,17 @@
 // These exercises reinforce Swift concepts in the context of a fitness tracking app.
 
 // A RunningWorkout struct has been created for you below. Add a method on RunningWorkout called postWorkoutStats that prints out the details of the run. Then create an instance of RunningWorkout and call postWorkoutStats().
+
+struct RunningWorkout {
+    var distance: Double
+    var time: Double
+    var elevation: Double
+    
+    func postWorkoutStats() {
+        print("The distance is \(distance) meters, total time was \(time) and elevation was at the level of: \(elevation) meters.")
+    }
+}
+
+var instance = RunningWorkout(distance: 2345, time: 13.5, elevation: 987.1)
+instance.postWorkoutStats()
+

@@ -46,3 +46,8 @@ struct Height {
         self.heightInInches = heightInCentimeters / 2.54
     }
 }
+
+
+var meaurements = Height(heightInCentimeters: 183)
+meaurements.heightInCentimeters
+meaurements.heightInInches

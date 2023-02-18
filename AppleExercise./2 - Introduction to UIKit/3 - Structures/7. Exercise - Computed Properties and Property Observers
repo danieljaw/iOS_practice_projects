@@ -27,3 +27,22 @@ struct Height {
             }
         }
     }
+
+    var heightInCentimeters: Double {
+        didSet {
+            if heightInInches != oldValue {
+                heightInInches = heightInCentimeters / 2.54
+            }
+        }
+    }
+
+    init(heightInInches: Double) {
+        self.heightInInches = heightInInches
+        self.heightInCentimeters = heightInInches * 2.54
+    }
+    
+    init(heightInCentimeters: Double) {
+        self.heightInCentimeters = heightInCentimeters
+        self.heightInInches = heightInCentimeters / 2.54
+    }
+}

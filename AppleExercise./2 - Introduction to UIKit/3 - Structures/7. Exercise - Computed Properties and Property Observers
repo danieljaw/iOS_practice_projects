@@ -10,3 +10,7 @@ struct Rectangle {
         width * height
     }
 }
+
+let areaProperty = Rectangle(width: 10, height: 40)
+areaProperty.computedArea
+print(areaProperty.computedArea)

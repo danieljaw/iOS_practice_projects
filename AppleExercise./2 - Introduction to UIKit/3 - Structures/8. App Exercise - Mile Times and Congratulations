@@ -1,2 +1,4 @@
 
 // These exercises reinforce Swift concepts in the context of a fitness tracking app.
+
+// The RunningWorkout struct below holds information about your users' running workouts. However, you decide to add information about average mile time. Add a computed property called averageMileTime that uses distance and time to compute the user's average mile time. Assume that distance is in meters and 1600 meters is a mile.

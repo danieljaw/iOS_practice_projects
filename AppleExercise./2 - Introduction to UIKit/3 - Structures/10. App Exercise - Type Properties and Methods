@@ -6,3 +6,12 @@
 // Add to RunningWorkout a type method mileTimeFor(distance:time:) where distance and time are both of type Double. This method should have a return value of type Double. The body of the method should calculate the average mile time needed to cover the passed in distance in the passed in time. Assume that distance is in meters and that one mile is 1600 meters.
 
 // tbc
+
+
+// Call the method from outside of the struct and print the result to ensure that it works properly.
+
+struct RunningWorkout {
+    var distance: Double
+    var time: Double
+    var elevation: Double
+}

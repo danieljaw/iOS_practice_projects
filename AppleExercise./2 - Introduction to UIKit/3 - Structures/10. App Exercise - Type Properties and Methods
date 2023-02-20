@@ -1,1 +1,4 @@
 // App Exercise - Type Properties and Methods
+
+
+// In another exercise, you added a computed property representing the average mile time from a run. However, you may want to have a calculator of sorts that users can use before their run to find out what mile time they need to average in order to run a given distance in a given time. In this case it might be helpful to have a type method on RunningWorkout that can be accessed without having an instance of RunningWorkout.

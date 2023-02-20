@@ -16,3 +16,6 @@ struct User {
 // TBC
 
 // Below, call the logIn(user:) method and pass in a different User instance than what you assigned to currentUser above. Observe the printout in the console.
+
+
+// TBC

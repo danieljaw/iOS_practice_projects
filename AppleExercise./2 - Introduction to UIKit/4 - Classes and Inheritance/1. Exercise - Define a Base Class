@@ -23,3 +23,5 @@ class Spaceship {
         }
     }
 }
+
+// Create a let constant called falcon and assign it to an instance of Spaceship. After initialization, set name to "Falcon."

@@ -41,3 +41,6 @@ falcon.moveRight()
 print(falcon.position)
 
 // The last thing Spaceship needs for this example is a method to handle what happens if the ship gets hit. Go back and add a method wasHit() to Spaceship that will decrement the ship's health by 5, then if health is less than or equal to 0 will print "Sorry, your ship was hit one too many times. Do you want to play again?" Once this method exists, call it on falcon and print out the value of health.
+
+falcon.wasHit()
+print(falcon.health)

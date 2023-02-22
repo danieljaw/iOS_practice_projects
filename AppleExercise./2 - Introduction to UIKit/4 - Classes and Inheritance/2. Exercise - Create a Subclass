@@ -48,3 +48,5 @@ destroyer.name = "Destroyer,"
 print(destroyer.position)
 destroyer.moveRight()
 print(destroyer.position)
+
+// Try to print weapon on falcon. Why doesn't this work? Provide your answer in a comment or a print statement below, and remove any code you added that doesn't compile.

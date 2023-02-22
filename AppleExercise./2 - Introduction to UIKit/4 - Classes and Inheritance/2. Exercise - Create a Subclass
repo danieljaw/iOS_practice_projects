@@ -50,3 +50,6 @@ destroyer.moveRight()
 print(destroyer.position)
 
 // Try to print weapon on falcon. Why doesn't this work? Provide your answer in a comment or a print statement below, and remove any code you added that doesn't compile.
+
+// falcon.weapon
+print("This won't work because falcon was defined as a different subclass and we don't have insight into it without calling it in right way")

@@ -22,3 +22,17 @@ class Spaceship {
 }
 
 // Define a new class Fighter that inherits from Spaceship. Add a variable property weapon that defaults to an empty string and a variable property remainingFirePower that defaults to 5.
+
+
+class Fighter: Spaceship {
+    var weapon: String = ""
+    var remainingFirePower: Int = 5
+    
+    func fire() {
+        if remainingFirePower > 0 {
+            remainingFirePower -= 1
+        } else {
+            print("You have no more fire power.")
+        }
+    }
+}

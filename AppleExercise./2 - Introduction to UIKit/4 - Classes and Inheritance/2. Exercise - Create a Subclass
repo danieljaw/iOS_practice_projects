@@ -9,5 +9,14 @@ class Spaceship {
     func moveLeft() {
         position -= 1
     }
+        func moveRight() {
+        position += 1
     }
     
+    func wasHit() {
+        health -= 5
+        if health <= 0 {
+            print("Sorry, your ship was hit one too many times. Do you want to play again?")
+        }
+    }
+}

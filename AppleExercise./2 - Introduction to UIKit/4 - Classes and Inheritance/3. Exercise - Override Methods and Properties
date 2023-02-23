@@ -64,3 +64,20 @@ print(defender.remainingFirePower)
 
 
 // Go back to your declaration of ShieldedShip and override wasHit(). In the body of the method, check to see if shieldStrength is greater than 0. If it is, decrement shieldStrength by 5. Otherwise, decrement health by 5. Call wasHit() on defender and print shieldStrength and health.
+
+defender.wasHit()
+print(defender.shieldStrength)
+print(defender.health)
+//defender.wasHit()
+//defender.wasHit()
+//print(defender.health)
+//defender.wasHit()
+//print(defender.health)
+//defender.wasHit()
+//print(defender.health)
+//defender.wasHit()
+//print(defender.health)
+//defender.wasHit()
+//defender.wasHit()
+//print(defender.shieldStrength)
+//print(defender.health)

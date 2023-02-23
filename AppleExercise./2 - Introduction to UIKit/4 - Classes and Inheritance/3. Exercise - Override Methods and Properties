@@ -52,3 +52,12 @@ class ShieldedShip: Fighter {
         }
     }
 }
+
+
+let defender = ShieldedShip()
+defender.name = "Defender"
+defender.weapon = "Cannon."
+defender.moveRight()
+print(defender.position)
+defender.fire()
+print(defender.remainingFirePower)

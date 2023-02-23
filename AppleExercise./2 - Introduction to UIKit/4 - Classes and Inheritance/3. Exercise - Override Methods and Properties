@@ -36,3 +36,5 @@ class Fighter: Spaceship {
         }
     }
 }
+
+// Define a new class ShieldedShip that inherits from Fighter. Add a variable property shieldStrength that defaults to 25. Create a new instance of ShieldedShip called defender. Set name to "Defender" and weapon to "Cannon." Call moveRight() and print position, then call fire() and print remainingFirePower.

@@ -1,3 +1,14 @@
 // Exercise - Override Methods and Properties
 
 // The exercises below are based on a game where a spaceship avoids obstacles in space. The ship is positioned at the bottom of a coordinate system and can only move left and right while obstacles "fall" from top to bottom. Throughout the exercises, you'll create classes to represent different types of spaceships that can be used in the game. The base class Spaceship and one subclass Fighter have been provided for you below.
+
+
+class Spaceship {
+    var name: String = ""
+    var health = 100
+    var position = 0
+    
+    func moveLeft() {
+        position -= 1
+    }
+    

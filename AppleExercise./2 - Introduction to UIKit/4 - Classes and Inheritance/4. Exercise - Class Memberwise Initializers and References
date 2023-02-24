@@ -82,3 +82,6 @@ falcon.name
 // Writing initializers for subclasses can get tricky. Your initializer needs to not only set the properties declared on the subclass, but also set all of the uninitialized properties on classes that it inherits from. Go to the declaration of Fighter and write an initializer that takes an argument for each property on Fighter and for each property on Spaceship. Set the properties accordingly. (Hint: you can call through to a superclass's initializer with super.init after you initialize all of the properties on the subclass).
 
 // Then create an instance of Fighter below called destroyer. Use the memberwise initializer you just created. The ship's name should be "Destroyer."
+
+var destroyer = Fighter(name: "Destroyer", health: 100, position: 20, weapon: "Laser", remainingFirePower: 23)
+destroyer.name

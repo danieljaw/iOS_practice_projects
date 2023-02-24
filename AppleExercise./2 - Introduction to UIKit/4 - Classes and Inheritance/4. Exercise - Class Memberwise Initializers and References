@@ -39,3 +39,12 @@ class Fighter: Spaceship {
         
         super.init(name: name, health: health, position: position)
     }
+    
+        func fire() {
+        if remainingFirePower > 0 {
+            remainingFirePower -= 1
+        } else {
+            print("You have no more fire power.")
+        }
+    }
+}

@@ -91,3 +91,13 @@ destroyer.name
 
 var defender = ShieldedShip(name: "Defender.", health: 234, position: 123, weapon: "Snow", remainingFirePower: 333, shieldStrength: 22)
 defender.name
+
+
+// Create a new constant named sameShip and set it equal to falcon. Print out the position of sameShip and falcon, then call moveLeft() on sameShip and print out the position of sameShip and falcon again. Did both positions change? Why? If both were structs instead of classes, would it be the same? Why or why not? Provide your answer in a comment or print statement below.
+
+let sameShip = falcon
+print(sameShip.position)
+print(falcon.position)
+sameShip.moveLeft()
+print(sameShip.position)
+print(falcon.position)

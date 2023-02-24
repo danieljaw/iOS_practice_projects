@@ -74,3 +74,7 @@ class ShieldedShip: Fighter {
 
 
 // Then create an instance of Spaceship below called falcon. Use the memberwise initializer you just created. The ship's name should be "Falcon."
+
+
+var falcon = Spaceship(name: "Falcon.", health: 100, position: 50)
+falcon.name

@@ -28,3 +28,14 @@ class Spaceship {
         }
     }
 }
+
+class Fighter: Spaceship {
+    let weapon: String
+    var remainingFirePower: Int
+    
+    init(name: String, health: Int, position: Int, weapon: String, remainingFirePower:Int) {
+        self.weapon = weapon
+        self.remainingFirePower = remainingFirePower
+        
+        super.init(name: name, health: health, position: position)
+    }

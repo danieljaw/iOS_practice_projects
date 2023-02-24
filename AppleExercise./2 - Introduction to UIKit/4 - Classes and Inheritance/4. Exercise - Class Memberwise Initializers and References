@@ -57,3 +57,14 @@ class ShieldedShip: Fighter {
         
         super.init(name: name, health: health, position: position, weapon: weapon, remainingFirePower: remainingFirePower)
     }
+
+
+    
+    override func wasHit() {
+        if shieldStrength > 0 {
+            shieldStrength -= 5
+        } else {
+            super.wasHit()
+        }
+    }
+}

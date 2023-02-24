@@ -85,3 +85,9 @@ falcon.name
 
 var destroyer = Fighter(name: "Destroyer", health: 100, position: 20, weapon: "Laser", remainingFirePower: 23)
 destroyer.name
+
+// Then create an instance of ShieldedShip below called defender. Use the memberwise initializer you just created. The ship's name should be "Defender."
+
+
+var defender = ShieldedShip(name: "Defender.", health: 234, position: 123, weapon: "Snow", remainingFirePower: 333, shieldStrength: 22)
+defender.name

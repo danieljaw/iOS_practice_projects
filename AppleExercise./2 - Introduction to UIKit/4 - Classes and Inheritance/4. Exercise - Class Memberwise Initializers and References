@@ -1,1 +1,3 @@
 // Exercise - Class Memberwise Initializers and References
+
+// Exercise - Class Memberwise Initializers and References The exercises below are based on a game where a spaceship avoids obstacles in space. The ship is positioned at the bottom of a coordinate system and can only move left and right while obstacles "fall" from top to bottom. The base class Spaceship and subclasses Fighter and ShieldedShip have been provided for you below. You will use these to complete the exercises.

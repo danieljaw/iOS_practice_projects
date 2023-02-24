@@ -48,3 +48,12 @@ class Fighter: Spaceship {
         }
     }
 }
+
+class ShieldedShip: Fighter {
+    var shieldStrength: Int
+
+    init(name: String, health: Int, position: Int, weapon: String, remainingFirePower: Int, shieldStrength: Int) {
+        self.shieldStrength = shieldStrength
+        
+        super.init(name: name, health: health, position: position, weapon: weapon, remainingFirePower: remainingFirePower)
+    }

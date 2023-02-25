@@ -18,3 +18,7 @@ print(registrationList)
 
 registrationList += ["Janek", "Asia", "Daniel", "Leszek"]
 print(registrationList)
+
+// Use the insert(_:at:) method to add Charlie into the array as the second element. Print the contents of the collection.
+registrationList.insert("Charlie", at: 1)
+print(registrationList)

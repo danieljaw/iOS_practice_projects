@@ -14,3 +14,7 @@ print(registrationList)
 
 
 // Add four additional names into the array using the += operator. All of the names should be added in one step. Print the contents of the collection.
+
+
+registrationList += ["Janek", "Asia", "Daniel", "Leszek"]
+print(registrationList)

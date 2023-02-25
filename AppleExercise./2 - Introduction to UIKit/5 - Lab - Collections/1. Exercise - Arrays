@@ -9,3 +9,5 @@ var registrationList: [String] = []
 
 // Your friend Sara is the first to register for the event. Add her name to registrationList using the append(_:) method. Print the contents of the collection.
 
+registrationList.append("Sara")
+print(registrationList)

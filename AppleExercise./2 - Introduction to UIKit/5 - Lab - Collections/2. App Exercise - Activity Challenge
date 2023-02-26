@@ -1,1 +1,7 @@
 // App Exercise - Activity Challenge
+
+
+// App Exercise - Activity Challenge
+//These exercises reinforce Swift concepts in the context of a fitness tracking app.
+
+// Your fitness tracking app shows users a list of possible challenges, grouped by activity type (i.e. walking challenges, running challenges, calisthenics challenges, weightlifting challenges, etc.) A challenge could be as simple as "Walk 3 miles a day" or as intense as "Run 5 times a week."

@@ -21,3 +21,6 @@ print(miesiaceOrazDni)
 
 miesiaceOrazDni.updateValue(29, forKey: "February")
 print(miesiaceOrazDni)
+
+
+// Use if-let syntax to retrieve the number of days under "January." If the value is there, print "January has 31 days", where 31 is the value retrieved from the dictionary.

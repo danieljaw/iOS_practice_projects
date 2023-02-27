@@ -7,3 +7,6 @@
 var miesiaceOrazDni: [String: Int] = [:]
 miesiaceOrazDni = ["January": 31, "February": 28, "March": 31]
 print(miesiaceOrazDni)
+
+
+// Using subscripting syntax to add April to the collection with a value of 30. Print the dictionary.

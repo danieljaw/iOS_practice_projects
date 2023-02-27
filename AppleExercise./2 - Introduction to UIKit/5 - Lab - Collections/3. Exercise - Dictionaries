@@ -10,3 +10,7 @@ print(miesiaceOrazDni)
 
 
 // Using subscripting syntax to add April to the collection with a value of 30. Print the dictionary.
+
+
+miesiaceOrazDni["April"] = 30
+print(miesiaceOrazDni)

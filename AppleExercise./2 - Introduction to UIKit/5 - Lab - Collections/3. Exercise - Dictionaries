@@ -32,3 +32,10 @@ if let numberOfDays = miesiaceOrazDni["January"] {
 
 
 //Given the following arrays, create a new [String : [String]] dictionary. shapesArray should use the key "Shapes" and colorsArray should use the key "Colors." Print the resulting dictionary.
+
+
+let shapesArray = ["koło", "trójkąt", "prostopadłościan"]
+let colorsArray = ["czerwony", "żółty", "pomarańczowy"]
+
+var secDict = ["Shapes": shapesArray, "Colors": colorsArray]
+print(secDict)

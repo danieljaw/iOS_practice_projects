@@ -29,3 +29,6 @@ print(miesiaceOrazDni)
 if let numberOfDays = miesiaceOrazDni["January"] {
     print("January has \(numberOfDays) dni.")
 }
+
+
+//Given the following arrays, create a new [String : [String]] dictionary. shapesArray should use the key "Shapes" and colorsArray should use the key "Colors." Print the resulting dictionary.

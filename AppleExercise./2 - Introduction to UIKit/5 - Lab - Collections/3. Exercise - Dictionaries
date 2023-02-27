@@ -14,3 +14,6 @@ print(miesiaceOrazDni)
 
 miesiaceOrazDni["April"] = 30
 print(miesiaceOrazDni)
+
+
+// It's a leap year! Update the number of days in February to 29 using the updateValue(_:, forKey:) method. Print the dictionary.

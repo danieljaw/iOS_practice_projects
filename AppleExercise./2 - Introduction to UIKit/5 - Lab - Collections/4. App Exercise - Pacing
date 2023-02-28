@@ -3,3 +3,6 @@
 
 
 // These exercises reinforce Swift concepts in the context of a fitness tracking app.
+
+
+// Create a dictionary paces of type [String: Double] and assign it a dictionary literal with "Easy", "Medium", and "Fast" keys corresponding to values of 10.0, 8.0, and 6.0. These numbers correspond to mile pace in minutes. Print the dictionary.

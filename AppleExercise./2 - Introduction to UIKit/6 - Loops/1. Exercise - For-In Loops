@@ -23,4 +23,4 @@ capitals = ["Polska": "Warszawa", "Niemcy": "Berlin", "Czechy": "Praga", "Włoch
 
 for (pansto, stolica) in capitals {
     print("The capital of \(pansto) is \(stolica).")
-}an
+}

@@ -18,3 +18,8 @@ print("Natalia Schroeder")
 print("Utwór: ZIMA")
 
 // Use multiple print functions to write out some of the lyrics to the song.
+
+
+print("A ona dalej szła od zachodu po świt\n czeka na dzień kiedy znowu Cię spotka")
+print("Instrumental")
+print("Pogodnie śmiać")

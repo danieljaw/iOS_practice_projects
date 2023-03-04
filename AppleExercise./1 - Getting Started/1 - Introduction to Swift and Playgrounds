@@ -16,3 +16,5 @@ print("How to use playgrounds to make writing Swift fun and simple")
 
 print("Natalia Schroeder")
 print("Utwór: ZIMA")
+
+// Use multiple print functions to write out some of the lyrics to the song.

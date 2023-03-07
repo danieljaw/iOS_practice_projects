@@ -16,3 +16,6 @@ friends
 
 
 //Does the above code compile? Why not? Print your explanation to the console using the print function. Go back and delete your line of code that updates the friends constant to a lower number so that the playground will compile properly.
+
+
+print("There is no possibility to change the value of constant. We can make it by adding a changable var")

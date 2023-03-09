@@ -1,1 +1,4 @@
 // App Exercise - Step Goal
+
+
+// Your fitness tracking app needs to know goal number of steps per day. Create a constant goalSteps and set it to 10000.

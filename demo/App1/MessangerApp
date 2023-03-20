@@ -15,10 +15,4 @@ class ChatViewController: UIViewController {
         super.viewDidLoad()
 //        tableView.delegate = self
         tableView.dataSource = self
-        title = K.appName
-        navigationItem.hidesBackButton = true // ukrywa back
 
-        tableView.register(UINib(nibName: K.cellNibName, bundle: nil), forCellReuseIdentifier: K.cellIdentifier )
-        
-        loadMessageds()
-    }

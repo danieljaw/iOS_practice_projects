@@ -24,3 +24,12 @@ class ChatViewController: UIViewController {
         
         loadMessageds()
     }
+
+    func loadMessageds() {
+       //  messages = [] // teraz pętla jest i jak pisze wiadomosc to się pojawiają wszystkie + nowa
+        
+        db.collection(K.FStore.collectionName)
+            .order(by: K.FStore.dateField)
+            .addSnapshotListener { querySnapshot, error in // getDocument - tylko raz odświeża -liesten - odświeża
+            
+            self.messages = [] //dodjamey tutaj

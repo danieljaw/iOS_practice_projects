@@ -5,3 +5,20 @@ class ChatViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var messageTextfield: UITextField!
+
+
+   let db = Firestore.firestore()
+    
+    var messages: [Message] = []
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+//        tableView.delegate = self
+        tableView.dataSource = self
+        title = K.appName
+        navigationItem.hidesBackButton = true // ukrywa back
+
+        tableView.register(UINib(nibName: K.cellNibName, bundle: nil), forCellReuseIdentifier: K.cellIdentifier )
+        
+        loadMessageds()
+    }

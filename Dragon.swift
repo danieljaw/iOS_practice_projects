@@ -21,5 +21,5 @@ class Dragon: Enemy {
 }
 
 class BirdSecond: Enemy {
-    
+    var birdSpan = 100
 }

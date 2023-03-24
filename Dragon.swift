@@ -13,4 +13,7 @@ class Dragon: Enemy {
         super.attack()
         print("Spits fire, does 10 demage")
     }
+    
+    override func smahs() {
+    }
 }

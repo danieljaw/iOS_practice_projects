@@ -24,5 +24,6 @@ class BirdSecond: Enemy {
     var birdSpan = 100
     
     func masterKill(int: int) -> int {
+        print("Master boss - win")
     }
 }

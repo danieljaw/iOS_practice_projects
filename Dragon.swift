@@ -16,6 +16,6 @@ class Dragon: Enemy {
     
     override func smahs() {
         super.move()
-        
+        print("Smash the walls")
     }
 }

@@ -19,3 +19,7 @@ class Dragon: Enemy {
         print("Smash the walls")
     }
 }
+
+class BirdSecond: Enemy {
+    
+}

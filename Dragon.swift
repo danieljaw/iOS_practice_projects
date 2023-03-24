@@ -15,5 +15,7 @@ class Dragon: Enemy {
     }
     
     override func smahs() {
+        super.move()
+        
     }
 }
